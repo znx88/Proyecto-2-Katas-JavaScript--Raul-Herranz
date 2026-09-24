@@ -22,7 +22,7 @@ const movies = [
 ];
 const categories = [];
 
-for (const movie of movies37) {
+for (const movie of movies) {
   for (const category of movie.categories) {
     if (!categories.includes(category)) {
       categories.push(category);
